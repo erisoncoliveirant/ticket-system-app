@@ -1,0 +1,176 @@
+{
+  "statuses": [
+    {
+      "id": 1,
+      "name": "Open",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 2,
+      "name": "Process",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 3,
+      "name": "Closed",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Support",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 2,
+      "name": "IT Department",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 3,
+      "name": "Programmer",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 4,
+      "name": "Marketing",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 5,
+      "name": "Data base",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    }
+  ],
+  "kinds": [
+    {
+      "id": 1,
+      "name": "Ticket",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 2,
+      "name": "Bug",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 3,
+      "name": "Suggestion",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 4,
+      "name": "Feature",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    }
+  ],
+  "priorities": [
+    {
+      "id": 1,
+      "name": "High",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 2,
+      "name": "Medium",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 3,
+      "name": "low",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Admin",
+      "last_name": "admin",
+      "email": "admin@admin.com",
+      "password": "admin1234",
+      "email_verified_at": "2022-06-30 16:04:00",
+      "activated": true,
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "number": "fsdfsfdsdfsfçpjgmp53543",
+      "date": "2022-06-30 16:04:00",
+      "title": "teste",
+      "description": "teste",
+      "kind_id": 1,
+      "category_id": 2,
+      "priority_id": 1,
+      "status_id": 2,
+      "employee_id": 1,
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    }
+  ],
+  "time_entries": [
+    {
+      "id": 1,
+      "employee_id": 1,
+      "date_from": "2022-06-30 16:04:00",
+      "date_to": "2022-06-30 16:34:00",
+      "note": "teste",
+      "deleted_at": null,
+      "created_at": null,
+      "updated_at": null
+    }
+  ],
+  "time_entry_ticket": [
+    {
+      "id": 1,
+      "time_entry_id": 1,
+      "ticket_id": 1,
+      "created_at": null,
+      "updated_at": null
+    }
+  ],
+  "tracking_ticket_employees": [
+    {
+      "id": 1,
+      "ticket_id": 1,
+      "employee_id": 1,
+      "created_at": null,
+      "updated_at": null
+    }
+  ]
+}
